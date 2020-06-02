@@ -1,0 +1,33 @@
+instalar node 12.17
+
+npm init -y 
+
+npm i express 
+
+npm i @types/express -D
+
+npm install typescript -D
+
+npm install ts-node -D
+
+
+// criar arquivo de conf typescript
+
+npx tsc --init
+
+
+// instalando pkg para detectar as mudanças e restartar o servidor
+
+
+npm install ts-node-dev -D
+
+
+// criando um comando para startar a aplicação // criar em scrits no package.json
+
+ exem: ts-node src/server.ts
+
+
+// criando projeto react 
+
+
+npx create-react-app web --template=typescript
