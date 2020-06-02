@@ -31,3 +31,16 @@ npm install ts-node-dev -D
 
 
 npx create-react-app web --template=typescript
+
+
+// instalando orm knex 
+
+npm install knex
+
+// instalar tmb o sqlite3 (caso o banco que vc for usar seja o sqlite)
+
+npm install sqlite3
+
+// depois da criação das migrations , crie o arquivo knexfile.ts na raiz e configure a direção do database e das migrations, depois execute o arquivo com 
+
+npx knex migrate:latest --knexfile knexfile.ts migrate:latest
