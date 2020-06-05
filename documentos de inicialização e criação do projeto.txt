@@ -43,4 +43,15 @@ npm install sqlite3
 
 // depois da criação das migrations , crie o arquivo knexfile.ts na raiz e configure a direção do database e das migrations, depois execute o arquivo com 
 
-npx knex migrate:latest --knexfile knexfile.ts migrate:latest
+npx knex  --knexfile knexfile.ts migrate:latest
+
+
+
+//adicionando cors
+
+npm i cors
+
+@types/cors -D
+
+
+
